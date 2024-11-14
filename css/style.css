@@ -18,7 +18,6 @@ body{
   
 }
 .header_nav{
-  display: flex;
   background-color: #F8F8F8;
 }
 a{
@@ -50,6 +49,41 @@ a{
   left: 400px;
   gap: 0px;
   opacity: 0px;
-  
+}
+form {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+.search {
+  position: absolute;
 
+  width: 412px;
+  height: 48px;
+  top: 70px;
+  left: 592px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+.search input {
+  width: 100%;
+  height: 42px;
+  padding-left: 10px;
+  border-width: 0px, 0px, 0px, 0px;
+  border-style: solid;
+  border-color: #D4D4D4;
+  border-radius: 5px;
+  outline: none;
+}
+.search button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  background: red;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
 }
