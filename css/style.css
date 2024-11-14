@@ -1,0 +1,46 @@
+html{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+body{
+  color: #1D1D1B;
+  width: 1920px;
+  margin: 0;
+  padding: 0;
+}
+.header{
+  width: 1920px;
+  padding: 0 400px;
+  
+}
+.header_nav{
+  background-color: #F8F8F8;
+
+  
+  
+}
+a{
+  text-decoration: none;
+  color: #1D1D1B;
+}
+.header_list{
+  display: flex;
+  gap:0;
+  flex-wrap: wrap;
+  flex-direction: flex-start;
+  list-style-type:none;
+  margin:0;
+  padding: 0;
+  
+}
+.header_list-2{
+  display:flex;
+  justify-content: space-between;
+  padding: 0 285px 0 100px;
+  gap: 30px;
+  list-style-type:none; 
+}

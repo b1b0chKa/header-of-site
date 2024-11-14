@@ -2,22 +2,49 @@
 <html lang="ru">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="css.style">
-        <title>Header of site</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>КанцПарк</title>
     </head>
     <body>
-        <header>
-            <div>
-                <nav>
-                    <ul class="info">
-                        <li><img href="map tag.webp"></li>
-                        <li class=geo> Ваше местоположение</li>
-                        <li>Магазины</li>
-                        <li class="active-1">Покупателям</li>
-                        <li class="active-2">Юридическим лицам</li>
-                        <li class="pn">8-800-999-99-99 (с 3:00 до 22:00)</li>
-                    </ul>
-                </nav>
+        <header class="header">
+            <div class="wraper">
+                <div class="header_wraper">  
+                    <nav class="header_nav">
+                        <ul class="header_list">
+                            <li class="header_item">
+                                    <img src="map tag.webp" width="20px" height="20px" alt="Изображение выбора местоположения" class="map_tag-pic">
+                            </li>
+                            <li class="header_item">
+                                <a href="#" class="header_link">Местоположенние</a>
+                            </li>
+                            
+                            <li>
+                                <ul class="header_list-2">
+                                    <li class="header_item">
+                                        <a href="#" class="header_link">Магазины</a>
+                                    </li>
+                                    <li class="header_item">
+                                        <a href="#" class="header_link">Покупателям</a>
+                                    </li>
+                                    <li class="header_item">
+                                        <a href="#" class="header_link">Юридическим лицам</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header_item">
+                                <a href="#" class="header_link">8-800-999-99-99(с 3:00 до 22:00)</a>
+                            </li>
+                        </ul>
+                       <!-- <div class="logo"><img src="Vector.svg" alt="image of logo"></div>
+                        <div class="search">
+                            <form>
+                                <input type="text" placeholder="Быстрый поиск">
+                                <button type="submit"><img src="search_button.svg" alt="button"></button>
+                            </form>
+                        </div>-->
+                    </nav>
+                </div>
             </div>
         </header>
     </body>
