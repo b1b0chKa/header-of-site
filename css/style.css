@@ -14,30 +14,58 @@ body{
 }
 .header{
   width: 1920px;
-  padding: 0 400px;
   
+  
+}
+.header_wraper{
+height: 36px;
 }
 .header_nav{
   background-color: #F8F8F8;
+  padding: 0 400px;
 }
 a{
   text-decoration: none;
   color: #1D1D1B;
 }
+.map_tag-pic{
+  position:absolute;
+  top: 0;
+  left: 400px;
+
+}
 .header_list{
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 8px;
+  
   display: flex;
   gap:0;
   flex-wrap: wrap;
   flex-direction: flex-start;
   list-style-type:none;
-  margin:0;
-  padding: 0;
+  
+  padding-left: 35px;
   
 }
 .header_list-2{
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  
   display:flex;
   justify-content: space-between;
-  padding: 0 285px 0 100px;
+  padding: 0 430px 0 100px;
   gap: 30px;
   list-style-type:none; 
 }
@@ -52,14 +80,15 @@ a{
 }
 form {
   position: relative;
-  width: 300px;
+  width: 412px;
+  height: 48px;
   margin: 0 auto;
 }
 .search {
+  display: inline-block;
   position: absolute;
-
-  width: 412px;
-  height: 48px;
+  width:auto;
+  height: auto;
   top: 70px;
   left: 592px;
   gap: 0px;
@@ -68,7 +97,7 @@ form {
 }
 .search input {
   width: 100%;
-  height: 42px;
+  height: 48px;
   padding-left: 10px;
   border-width: 0px, 0px, 0px, 0px;
   border-style: solid;
@@ -80,10 +109,79 @@ form {
   position: absolute; 
   top: 0;
   right: 0px;
-  width: 42px;
-  height: 42px;
+  width: 48px;
+  height: 48px;
   border: none;
   background: red;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
+}
+.button-1{
+  position: absolute;
+  width: 182px;
+  height: 48px;
+  top: 70px;
+  left: 1080px;
+  gap: 0px;
+  border-radius: 3px;
+  opacity: 0.04px;
+
+}
+.button-1:hover{
+  background-color: #F8F8F8;
+}
+.some_but-1{
+  
+  margin: 0 auto;
+}
+.imp_but{
+  position: absolute;
+  height: 24px;
+  margin: 0 auto;
+}
+.button-2{
+  position: absolute;
+  width: 182px;
+  height: 48px;
+  top: 70px;
+  left: 1300px;
+  gap: 0px;
+  border-radius: 3px;
+  opacity: 0.04px;
+
+}
+.button-2:hover{
+  background-color: #F8F8F8;
+}
+.some_but-2{
+  
+  margin: 0 auto;
+}
+.imp_but{
+  position: absolute;
+  height: 24px;
+  margin: 0 auto;
+}
+.button-3{
+  position: absolute;
+  width: 182px;
+  height: 48px;
+  top: 70px;
+  left: 1500px;
+  gap: 0px;
+  border-radius: 3px;
+  opacity: 0.04px;
+
+}
+.button-3:hover{
+  background-color: #F8F8F8;
+}
+.some_but-1{
+  
+  margin: 0 auto;
+}
+.imp_but{
+  position: absolute;
+  height: 24px;
+  margin: 0 auto;
 }
