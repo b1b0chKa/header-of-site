@@ -18,10 +18,8 @@ body{
   
 }
 .header_nav{
+  display: flex;
   background-color: #F8F8F8;
-
-  
-  
 }
 a{
   text-decoration: none;
@@ -43,4 +41,15 @@ a{
   padding: 0 285px 0 100px;
   gap: 30px;
   list-style-type:none; 
+}
+.logo{
+  position: absolute;
+  width: 136px;
+  height: 24px;
+  top: 85px;
+  left: 400px;
+  gap: 0px;
+  opacity: 0px;
+  
+
 }
