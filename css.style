@@ -1,0 +1,50 @@
+nav{
+  display:block;
+  height:60px;
+  weight:auto;
+  background-color:#e5e5e5; 
+}
+.info{
+    display:flex;
+    padding-top:0px;
+    font-size:15px;
+}
+li{
+  padding:20px;
+  display:block;
+  
+}
+.pn{
+  position:absolute;
+  right:0;
+}
+.geo{
+  display:inline-block;
+  padding-right: 200px; 
+}
+/*.active-1{
+  position: relative;
+  left: 0px;
+  width: 0px;
+  height: 0px;
+  background: #;
+  margin-top: 5px;
+  transition: bottom .2s linear;
+}
+.active-1:hover {
+  bottom: 0px;
+}
+.active-2 {
+  position: relative;
+  left: 0;
+  width: 0;
+  height: 0;
+  background: #000;
+  margin-top: 0;
+  transition: bottom .2s linear;
+}
+.active-2:hover {
+  bottom: 0px;
+}
+*/
+
