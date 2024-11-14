@@ -28,12 +28,9 @@ a{
   text-decoration: none;
   color: #1D1D1B;
 }
-.map_tag-pic{
-  position:absolute;
-  top: 0;
-  left: 400px;
 
-}
+
+
 .header_list{
   font-family: Open Sans;
   font-size: 12px;
@@ -42,18 +39,17 @@ a{
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  margin-top: 8px;
-  
   display: flex;
+  align-items: center;
   gap:0;
-  flex-wrap: wrap;
   flex-direction: flex-start;
   list-style-type:none;
-  
   padding-left: 35px;
   
 }
 .header_list-2{
+  display: flex;
+  align-items: center;
   font-family: Open Sans;
   font-size: 12px;
   font-weight: 400;
@@ -68,6 +64,14 @@ a{
   padding: 0 430px 0 100px;
   gap: 30px;
   list-style-type:none; 
+}
+.vaee{
+  display: flex;
+  align-items: center;
+}
+.header_item{
+  display: flex;
+  align-items: center;
 }
 .logo{
   position: absolute;
@@ -117,6 +121,8 @@ form {
   cursor: pointer;
 }
 .button-1{
+  display: flex;
+  align-items: center;
   position: absolute;
   width: 182px;
   height: 48px;
@@ -136,10 +142,13 @@ form {
 }
 .imp_but{
   position: absolute;
-  height: 24px;
+  height: 16px;
   margin: 0 auto;
+  width: 16px;
 }
 .button-2{
+  display: flex;
+  align-items: center;
   position: absolute;
   width: 182px;
   height: 48px;
@@ -163,6 +172,8 @@ form {
   margin: 0 auto;
 }
 .button-3{
+  display: flex;
+  align-items: center;
   position: absolute;
   width: 182px;
   height: 48px;
@@ -184,4 +195,52 @@ form {
   position: absolute;
   height: 24px;
   margin: 0 auto;
+}
+
+.catalog{
+  position:absolute;
+  width: 136px;
+  height: 48px;
+  top: 100px;
+  left: -1100px;
+  gap: 0px;
+  opacity: 0px;
+  
+}
+.last_line{
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border:0.5px solid #F8F8F8;
+  width: 984px;
+  height: 48px;
+  top: 100px;
+  left: -960px;
+  gap: 0;
+  opacity: 0.02px;
+  
+}
+.table_img{
+  position: absolute;
+  width: 180px;
+  height: 20px;
+  top: 162px;
+  left: 560px;
+  gap: 0;
+  opacity: 0px;
+  
+}
+.tables{
+  display: flex;
+  width: 194px;
+}
+.table_link{
+  position: absolute;
+  height: 48px;
+  margin: 0 auto;
+
+}
+.table_link:hover{
+  background-color: #F8F8F8;
 }
