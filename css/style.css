@@ -45,7 +45,7 @@ a{
   flex-direction: flex-start;
   list-style-type:none;
   padding-left: 35px;
-  
+  margin-top: 0;
 }
 .header_list-2{
   display: flex;
@@ -199,50 +199,44 @@ form {
 }
 
 .catalog{
-  position:absolute;
+  
   width: 136px;
   height: 48px;
-  top: 100px;
-  left: -1100px;
-  gap: 0px;
-  opacity: 0px;
-  
+ 
 }
 .last_line{
   position: absolute;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  border:0.5px solid #F8F8F8;
-  width: 984px;
+  border:0.3px solid #F8F8F8;
   height: 48px;
   top: 100px;
-  left: -960px;
+  left: -1045px;
   gap: 0;
   opacity: 0.02px;
-  
-}
-.table_img{
-  position: absolute;
-  width: 180px;
-  height: 20px;
-  top: 162px;
-  left: 560px;
-  gap: 0;
-  opacity: 0px;
-  
-}
-.tables{
-  display: flex;
-  width: 194px;
-}
-.table_link{
-  position: absolute;
-  height: 48px;
-  margin: 0 auto;
 
 }
-.table_link:hover{
+.table_img{
+  padding-right: 10px;
+}
+  
+
+.tables{
+  width: 190px;
+  gap: 0;
+  display: flex;
+  align-items: center;
+}
+.table_link{
+  justify-content: center;
+  height:100%;
+  width:100%;
+
+  display: flex;
+  align-items: center;
+
+}
+.tables .table_link:hover {
   background-color: #F8F8F8;
 }
 .badge:after{
@@ -255,4 +249,18 @@ form {
   position:relative;
   left:0;
   opacity:0.9;
+}
+
+p.sale{
+  color: red;
+}
+p.cat{
+  color:white;
+}
+.catalog{
+  background-color: red;
+
+}
+.catalog.table_link{
+  pointer-events: none;
 }
